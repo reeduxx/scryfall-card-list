@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
 '''
-
+    A small Python project that fetches lists of cards by set from the Scryfall API (https://scryfall.com/docs/api)
 '''
 
 import argparse
@@ -14,6 +14,13 @@ import sys
 from xml.dom import minidom
 from xml.etree import ElementTree
 
+__author__ = 'Brighton Ulery'
+__credits__ = ['Brighton Ulery']
+__license__ = 
+__version__ = '0.0.1'
+__maintainer__ = 'Brighton Ulery'
+__email__ = 'brighton.ulery@gmail.com'
+__status__ = 'Dev'
     
 class SetNotFoundError(Exception):
     def __init__(self, msg):
