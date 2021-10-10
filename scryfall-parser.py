@@ -16,7 +16,7 @@ from xml.etree import ElementTree
 
 __author__ = 'Brighton Ulery'
 __credits__ = ['Brighton Ulery']
-__license__ = 
+__license__ = 'Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)'
 __version__ = '0.0.1'
 __maintainer__ = 'Brighton Ulery'
 __email__ = 'brighton.ulery@gmail.com'
@@ -139,6 +139,6 @@ def fetch_sets():
         print(f'HTTP error occurred: {http_err}')
     except Exception as err:
         print(f'Other error occurred: {err}')
-
+        
 if __name__ == '__main__':
     main()
